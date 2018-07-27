@@ -17,10 +17,10 @@
                 <h1><a href="/">Můj blog</a></h1>
             </div>
             <ul>
-       <li><a href="aaa">Home</a></li>
-       <li><a href="Database">News</a></li>
-       <li><a href="ap">Contact</a></li>
-       <li><a href="aaaa">About</a></li>
+       <li><a href="{% url 'post_list' %}">Blog</a></li>
+       <li><a href="{% url 'gallery' %}">Gallery</a></li>
+       <li><a href="{% url 'about_me' %}">About me</a></li>
+       <li><a href="{% url 'contact' %}">Contact</a></li>
      </ul>
       <div class="content container">
           <div class="row">

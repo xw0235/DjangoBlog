@@ -47,3 +47,12 @@ def post_remove(request, pk):
     post = get_object_or_404(Post, pk=pk)
     post.delete()
     return redirect('post_list')
+
+def gallery(request):
+    return render(request,'blog/gallery.html')
+
+def about_me(request):
+    return render(request,'blog/about_me.html')
+
+def contact(request):
+    return render(request, 'blog/contact.html')
