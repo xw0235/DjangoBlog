@@ -1,9 +1,8 @@
-h1 a {
-  color: #1D424D;
-  font-family: 'Lobster';
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
 }
 body {
-    padding-left: 0px;
+ font-family: 'Work Sans', sans-serif;
 }
 .page-header {
      background-color: #ff9400;
@@ -47,6 +46,7 @@ h1, h2, h3, h4 {
 
  .post {
      margin-bottom: 70px;
+     font-family: 'Crimson Text', serif;
 }
 
  .post h1 a, .post h1 a:visited {
@@ -61,4 +61,7 @@ ul {
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.comment {
+    margin: 20px 0px 20px 20px;
 }
