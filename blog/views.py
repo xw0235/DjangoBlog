@@ -48,9 +48,6 @@ def post_remove(request, pk):
     post.delete()
     return redirect('post_list')
 
-def gallery(request):
-    return render(request,'blog/gallery.html')
-
 def about_me(request):
     return render(request,'blog/about_me.html')
 
@@ -69,7 +66,3 @@ def add_comment_to_post(request, pk):
     else:
         form = CommentForm()
     return render(request, 'blog/add_comment_to_post.html', {'form': form})
-
-
-
-    
